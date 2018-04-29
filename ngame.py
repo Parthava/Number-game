@@ -20,9 +20,9 @@ while(i<20):
 	print(r2, '\n')
 	input('Press Enter to continue \n')
 	i=i+1
-if(c==1):
-    print('You won' , c , 'time')
+print('You scored' , (c*100) , 'points out of' , (10*100) , 'points')
+if(c>=4 and c<=6):
+	print('You won the game')
 else:
-    print('You won' , c , 'times')
-print('You scored' , (c*500) , 'points out of' , (10*500) , 'points')
+	print('You loose the game')
 
